@@ -5,7 +5,7 @@ theme = "theme"
 
 [params]
 Name = "Sharukhi"
-About = "Hi, I’m an indie developer based in Bangladesh. I am currently focused on building full-stack applications. I’m always up for a challenge and eager to learn. I’m also excited about where my love for technology will take me in the future!"
+About = "Hi, I’m an indie developer based in Bangladesh, currently focused on building full-stack applications. I’m always up for a challenge and eager to learn. I’m also excited about where my love for technology will take me in the future!"
 Email = "sharukhi@sharukhi.xyz"
 Resume = ""
 ProjectLimit = 4 
