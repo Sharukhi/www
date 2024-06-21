@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+
+  <body>
+    <h1>{{ .Site.Params.Name }}</h1>
+    <h4 class="about">{{ .Site.Params.About| markdownify }}</h4>
+
+    <div>{{ .Content }}</div>
+
+    <table class="links">
+      {{ range .Site.Params.profiles }} {{ partial "profile_link.html" . }} {{
+      end }}
+      <tr>
+        {{ if ne .Site.Params.Resume "" }}
+        <td><i class="fas fa-file-alt" aria-hidden="true"></i></td>
+        <td>
+          &nbsp;<a href="/resume/{{ .Site.Params.Resume }}" target="_blank"
+            >Resume</a
+          >
+        </td>
+        {{ end }}
+      </tr>
+      <tr>
+        {{ if ne .Site.Params.Email "" }}
+        <td><i class="fas fa-envelope" aria-hidden="true"></i></td>
+        <td>
+          &nbsp;<a href="mailto:{{ .Site.Params.Email }}" target="_blank"
+            >{{ .Site.Params.Email }}</a
+          >
+        </td>
+        {{ end }}
+      </tr>
+    </table>
+
+    <h3><a href="/projects">Projects</a></h3>
+
+    <div>
+      <!-- orders content according to the "publishdate" field in front matter -->
+      {{ range first (.Site.Params.PostLimit | default 4) (where
+      (.Site.RegularPages.ByPublishDate.Reverse) "Section" "projects") }}
+      <div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a><br />
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
+      <br />
+      {{ end }}
+    </div>
+    <h3><a href="/posts">Posts</a></h3>
+
+    <div>
+      {{ range first (.Site.Params.PostLimit | default 4) (where
+      (.Site.RegularPages.ByPublishDate.Reverse) "Section" "posts") }}
+      <div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a><br />
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
+      <br />
+      {{ end }}
+    </div>
+  </body>
+</html>

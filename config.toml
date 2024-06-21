@@ -1,0 +1,29 @@
+baseURL = "https://sharukhi.xyz"
+languageCode = "en-us"
+title = "Sharukhi"
+theme = "theme" 
+
+[params]
+Name = "Sharukhi"
+About = "I'm an indie developer based in Bangladesh. I specialize in building web applications and sites using Javascript, Svelte & Flask. I am always up for a challenge and eager to learn and grow. I am also excited about where my love for technology will take me in the future! "
+Email = "sharukhi@sharukhi.xyz"
+Resume = ""
+ProjectLimit = 4 
+GoatCounterCode = ""
+
+[[params.profiles]]
+name = "GitHub"
+url = "https://github.com/sharukhi"
+icon = "fa-brands fa-github"
+
+
+[[params.profiles]]
+name = "Instagram"
+url = "https://www.instagram.com/ataullah_sharukhi/"
+icon = "fa-brands fa-instagram"
+
+[[params.profiles]]
+name = "X (formerly Twitter)"
+url = "https://x.com/sharukhi_"
+icon = "fa-brands fa-x-twitter"
+

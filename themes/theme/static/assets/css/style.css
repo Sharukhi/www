@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+:root {
+  --font: "Crimson Text";
+  --text: #0e1610;
+  --background: #f8fbf9;
+  --primary: #69a179;
+  --secondary: #acc9cb;
+  --accent: #8faab9;
+  --text-light: #8a8a8a;
+}
+
+body {
+  font-family: var(--font), serif;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color: var(--text);
+  max-width: 40rem;
+  padding: 2rem;
+  margin: auto;
+  background: var(--background);
+  overscroll-behavior-y: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+h1,
+h2,
+strong {
+  color: var(--text);
+  font-family: var(--font), serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+.muted {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+hr {
+  border: 0px;
+  border: 1px solid var(--background);
+}
+
+.about {
+  font-weight: normal;
+  word-wrap: break-word;
+  text-align: justify;
+}
+table {
+  text-decoration: none;
+}
+time {
+  color: var(--text-light);
+}
+td {
+  font-family: var(--font), serif;
+  color: var(--text);
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    font-size: 16.6px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+  td {
+    font-size: 16.9px;
+  }
+  time {
+    font-size: 15.7px;
+  }
+}
