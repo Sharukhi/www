@@ -10,5 +10,25 @@
   <p class="post-meta">
     <time itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time>
   </p>
-  {{ .Content }} {{ partial "footer.html" . }}
+  {{ .Content }}
+
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="sharukhi/sharukhi.xyz"
+    data-repo-id="R_kgDOMMNm5Q"
+    data-category="Comments"
+    data-category-id="DIC_kwDOMMNm5c4Cgq1W"
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="noborder_light"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async
+  ></script>
+
+  {{ partial "footer.html" . }}
 </html>
