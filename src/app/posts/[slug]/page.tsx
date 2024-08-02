@@ -5,6 +5,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { Crimson_Text } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const crimsonText = Crimson_Text({
   subsets: ["latin"],
@@ -57,6 +58,7 @@ export default function Post({ params }: PostProps) {
       <article className="text-balance text-[16.6px] prose prose-invert text-[#0e1610]">
         <Markdown>{post.content}</Markdown>
       </article>
+      <Footer />
     </main>
   );
 }
