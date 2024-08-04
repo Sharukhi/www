@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Work in progress",
+  title: "Tools | Sharukhi",
 };
 
 export default function Tools() {
@@ -13,7 +13,7 @@ export default function Tools() {
       <Navbar />
       <div className="mt-6">
         <div>
-          <h3 className="font-bold ">Software</h3>
+          <h3 className="font-bold ">Tools</h3>
           <p>
             Software that I use daily and other things I recommend. Here’s a
             list of all of that stuff. <i>(This page is still WIP)</i>
