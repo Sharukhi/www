@@ -15,7 +15,7 @@ export default function Comments() {
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="top"
-      theme="https://sharukhi.xyz/comments/comment.css"
+      theme="light_tritanopia"
       lang="en"
       loading="lazy"
     />
