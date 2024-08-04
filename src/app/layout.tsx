@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Crimson_Text } from "next/font/google";
 import "./styles/globals.css";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const crimsonText = Crimson_Text({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "Sharukhi",
@@ -33,9 +36,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={crimsonText.className}>
         {children}
-      <Analytics />
+        <Analytics />
       </body>
     </html>
   );

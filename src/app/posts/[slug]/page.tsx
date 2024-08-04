@@ -3,14 +3,9 @@ import getPostMetadata from "@/utils/getPostMetadata";
 import React from "react";
 import fs from "fs";
 import matter from "gray-matter";
-import { Crimson_Text } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const crimsonText = Crimson_Text({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+import Comments from "@/components/Comments";
 
 interface PostMetadata {
   slug: string;
@@ -53,11 +48,12 @@ export default function Post({ params }: PostProps) {
   const post = getPostContent(slug);
 
   return (
-    <main className={crimsonText.className}>
+    <main>
       <Navbar />
       <article className="text-balance text-[16.6px] prose prose-invert text-[#0e1610]">
         <Markdown>{post.content}</Markdown>
       </article>
+      <Comments />
       <Footer />
     </main>
   );

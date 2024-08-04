@@ -1,19 +1,13 @@
 import getPostMetadata from "@/utils/getPostMetadata";
 import { Icon } from "@iconify/react";
-import { Crimson_Text } from "next/font/google";
 import Post from "@/components/Post";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
-const crimsonText = Crimson_Text({
-  subsets: ["latin"],
-  weight: ["400"],
-});
-
 export default function Home() {
   const postMetadata = getPostMetadata("posts");
   return (
-    <main className={crimsonText.className}>
+    <main>
       <Navbar />
       <h4 className="about mb-6">
         Hi, I’m an indie developer based in Bangladesh, currently focused on
