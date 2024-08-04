@@ -11,11 +11,11 @@ export default function Comments() {
       category="Comments"
       categoryId="DIC_kwDOMMNm5c4Cgq1W"
       mapping="pathname"
-      term="Welcome to @giscus/react component!"
+      term="@giscus/react"
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="top"
-      theme="light"
+      theme="https://sharukhi.xyz/comments/comment.css"
       lang="en"
       loading="lazy"
     />

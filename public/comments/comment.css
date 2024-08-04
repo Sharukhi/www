@@ -8,18 +8,18 @@ main {
   --color-prettylights-syntax-string: #96d0ff;
   --color-prettylights-syntax-variable: #f69d50;
   --color-prettylights-syntax-brackethighlighter-unmatched: #e5534b;
-  --color-prettylights-syntax-invalid-illegal-text: #cdd9e5;
+  --color-prettylights-syntax-invalid-illegal-text: #0e1610;
   --color-prettylights-syntax-invalid-illegal-bg: #922323;
-  --color-prettylights-syntax-carriage-return-text: #cdd9e5;
+  --color-prettylights-syntax-carriage-return-text: #0e1610;
   --color-prettylights-syntax-carriage-return-bg: #ad2e2c;
   --color-prettylights-syntax-string-regexp: #8ddb8c;
   --color-prettylights-syntax-markup-list: #eac55f;
   --color-prettylights-syntax-markup-heading: #316dca;
   --color-prettylights-syntax-markup-italic: #adbac7;
   --color-prettylights-syntax-markup-bold: #adbac7;
-  --color-prettylights-syntax-markup-deleted-text: #ffd8d3;
+  --color-prettylights-syntax-markup-deleted-text: #e5534b;
   --color-prettylights-syntax-markup-deleted-bg: #78191b;
-  --color-prettylights-syntax-markup-inserted-text: #b4f1b4;
+  --color-prettylights-syntax-markup-inserted-text: #8ddb8c;
   --color-prettylights-syntax-markup-inserted-bg: #1b4721;
   --color-prettylights-syntax-markup-changed-text: #ffddb0;
   --color-prettylights-syntax-markup-changed-bg: #682d0f;
@@ -39,7 +39,7 @@ main {
   --color-btn-active-bg: #3d444d;
   --color-btn-active-border: #636e7b;
   --color-btn-selected-bg: #2d333b;
-  --color-btn-primary-text: #fff;
+  --color-btn-primary-text: #0e1610;
   --color-btn-primary-bg: #347d39;
   --color-btn-primary-border: #cdd9e51a;
   --color-btn-primary-shadow: 0 0 #0000;
@@ -109,7 +109,7 @@ main .pagination-loader-container {
   order: 3;
 }
 .gsc-homepage-bg {
-  background-color: #15202b;
+  background-color: #f4f1ea;
 }
 main .gsc-loading-image {
   background-image: url(https://github.githubassets.com/images/mona-loading-dimmed.gif);
