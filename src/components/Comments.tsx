@@ -15,7 +15,7 @@ export default function Comments() {
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="top"
-      theme="https://raw.githubusercontent.com/sharukhi/www/main/public/comments/comment.css"
+      theme="https://static.sharukhi.xyz/files/comment.css"
       lang="en"
       loading="lazy"
     />
