@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "sharukhi.xyz",
     images: [
       {
-        url: "/open-graph.png",
+        url: "https://sharukhi.xyz/open-graph.png",
         alt: "Open graph",
       },
     ],
