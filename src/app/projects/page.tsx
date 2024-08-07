@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold">Projects</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Here are some of the projects that I've worked on. <br />
+                Here are some of the projects that I&apos;ve worked on. <br />
                 <i>(This page is still WIP)</i>
               </p>
             </div>
