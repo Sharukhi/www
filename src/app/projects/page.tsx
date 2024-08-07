@@ -1,7 +1,5 @@
 import Navbar from "@/components/Navbar";
-import { Icon } from "@iconify/react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Projects() {
   return (
