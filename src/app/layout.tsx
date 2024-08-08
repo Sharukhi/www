@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Crimson_Text } from "next/font/google";
 import "./styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const crimsonText = Crimson_Text({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body className={crimsonText.className}>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

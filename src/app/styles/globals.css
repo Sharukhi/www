@@ -1,17 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*
-:root {
-  --font: "Crimson Text";
-  --text: #0e1610;
-  --background: #f8fbf9;
-  --primary: #69a179;
-  --secondary: #acc9cb;
-  --accent: #8faab9;
-  --text-light: #8a8a8a;
-}
-*/
+
 :root {
   --font: "Crimson Text";
   --text: #0e1610;

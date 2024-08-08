@@ -19,7 +19,7 @@ export default function Projects() {
           </div>
           <div className="grid grid-cols-1 gap-6 mt-12 place-items-center">
             <Link href={`https://github.com/sharukhi/khobor`} target="_blank">
-              <div className="card card-compact bg-base-100 w-[325px] xl:w-96 lg:w-96 md:w-96 sm:w-96 border-2 border-[#0e1610] border-opacity-20">
+              <div className="card card-compact bg-base-100 w-[325px] xl:w-[500px] lg:w-96 md:w-96 sm:w-96 border-2 border-[#0e1610] border-opacity-20">
                 <figure>
                   <Image
                     src="/projects/khobor.jpg"
@@ -41,7 +41,7 @@ export default function Projects() {
               href={`https://github.com/sharukhi/drivesafe`}
               target="_blank"
             >
-              <div className="card card-compact bg-base-100 w-[325px] xl:w-96 lg:w-96 md:w-96 sm:w-96 border-2 border-[#0e1610] border-opacity-20">
+              <div className="card card-compact bg-base-100 w-[325px] xl:w-[500px] lg:w-96 md:w-96 sm:w-96 border-2 border-[#0e1610] border-opacity-20">
                 <figure>
                   <Image
                     src="/projects/drivesafe.png"
@@ -60,7 +60,7 @@ export default function Projects() {
               </div>
             </Link>
             <Link href={`https://github.com/sharukhi/oab`} target="_blank">
-              <div className="card card-compact bg-base-100 w-[325px] xl:w-96 lg:w-96 md:w-96 sm:w-96 border-2 border-[#0e1610] border-opacity-20">
+              <div className="card card-compact bg-base-100 w-[325px] xl:w-[500px] lg:w-96 md:w-96 sm:w-96 border-2 border-[#0e1610] border-opacity-20">
                 <figure>
                   <Image
                     src="/projects/oab.png"
