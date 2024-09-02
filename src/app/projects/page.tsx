@@ -30,27 +30,3 @@ export default function Projects() {
   );
 }
 
-{
-  /*
-  
-
-
-export default function Projects() {
-  return (
-    <main>
-      <Navbar />
-      <div className="hidden">
-        <h1 className="font-bold text-2xl">Projects</h1>
-      </div>
-      <div>
-        <ul>
-          <li></li>
-          <li>a</li>
-          <li>a</li>
-        </ul>
-      </div>
-    </main>
-  );
-}
-  */
-}

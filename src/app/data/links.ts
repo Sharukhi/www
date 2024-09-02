@@ -1,24 +1,28 @@
-import { Project } from "../types/Projects";
+import { Links } from "../types/Links";
 
-export const projects: Project[] = [
+export const links: Links[] = [
   {
     id: 1,
-    title: "Khobor",
-    description:
-      "Khobor means news in Bengali. Khobor is an app that aims to serve news based on Bangladesh with fewer distractions.",
-    link: "https://github.com/sharukhi/khobor",
+    name: "GitHub",
+    link: "https://github.com/sharukhi",
+    icon: "mdi:github",
   },
   {
     id: 2,
-    title: "Drivesafe",
-    description:
-      "Driver sleep detection and alerting system with python and opencv.",
-    link: "https://github.com/sharukhi/drivesafe",
+    name: "Instagram",
+    link: "https://www.instagram.com/ataullah_sharukhi/",
+    icon: "mdi:instagram",
   },
   {
     id: 3,
-    title: "Oab",
-    description: "Object Avoiding Robot using Arduino.",
-    link: "https://github.com/sharukhi/oab",
+    name: "X (formerly Twitter)",
+    link: "https://x.com/sharukhi_",
+    icon: "ri:twitter-x-fill",
+  },
+  {
+    id: 4,
+    name: "hello@sharukhi.xyz",
+    link: "mailto:hello@sharukhi.xyz",
+    icon: "mdi:envelope-outline",
   },
 ];
