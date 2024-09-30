@@ -7,7 +7,7 @@ export default function Footer() {
         <p>
           Copyright © {new Date().getFullYear()}
           <Link href={`/`} className="hover:underline">
-            Sharukhi
+            Sharukhi 
           </Link>
           All right reserved.
         </p>
