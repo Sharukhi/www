@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         source: '/ig',
-        destination: 'https://links.sharukhi.xyz',
+        destination: 'https://www.instagram.com/ataullah_sharukhi',
         permanent: true,
       },
       {
