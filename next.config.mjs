@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/links',
-        destination: 'https://links.sharukhi.xyz',
+        destination: 'https://sharukhi.xyz',
         permanent: true,
       },
       {
