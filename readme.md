@@ -1,6 +1,6 @@
 ## sharukhi.xyz
 
-Personal website built using [next-js](https://nextjs.org/)
+Personal website built using [next.js](https://nextjs.org/)
 
 ---
 
