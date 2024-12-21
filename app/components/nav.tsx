@@ -17,10 +17,11 @@ export function Navbar() {
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
         <nav
-          className="flex flex-row items-center justify-between relative px-2 drop-shadow-md fade md:overflow-auto scroll-pr-6 md:relative border-[#222222] border-2 rounded-lg"
+          className="flex flex-row items-center justify-between relative px-2 mb-[-20px] fade md:overflow-auto scroll-pr-6 md:relative border-[#e0e0e0] dark:border-[#222222] border-2 rounded-lg"
           id="nav"
         >
           <div className="flex items-center">
+            <a href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -31,6 +32,7 @@ export function Navbar() {
             >
               <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13.75 7.75h-12m6-6v12m-3.5-2.5l7-7m0 7l-7-7"/>
             </svg>
+            </a>
           </div>
           <div className="flex flex-row space-x-2">
             {Object.entries(navItems).map(([path, { name }]) => {
