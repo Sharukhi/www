@@ -21,10 +21,10 @@ export default function Page() {
       <div className="my-8">
         <h2 className="font-semibold mb-4">Projects</h2>
         <ul className="transition-all hover:text-black dark:hover:text-white">
-          <li>- <a href="https://github.com/sharukhi/drivesafe" target='_blank' className="underline">Drivesafe</a></li>
-          <li>- <a href="https://github.com/sharukhi/oab" target='_blank' className="underline">OAB</a></li>
-          <li>- <a href="https://github.com/sharukhi/khobor" target='_blank' className="underline">Khobor</a></li>
-          <li>- <a href="https://github.com/sharukhi/lofi-box" target='_blank' className="underline">Lofi-Box</a></li>
+          <li>- <a href="https://github.com/sharukhi/drivesafe" target='_blank' className="hover:underline">Drivesafe</a></li>
+          <li>- <a href="https://github.com/sharukhi/oab" target='_blank' className="hover:underline">OAB</a></li>
+          <li>- <a href="https://github.com/sharukhi/khobor" target='_blank' className="hover:underline">Khobor</a></li>
+          <li>- <a href="https://github.com/sharukhi/lofi-box" target='_blank' className="hover:underline">Lofi-Box</a></li>
         </ul>
       </div>
       <div className="my-8">
