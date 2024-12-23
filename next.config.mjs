@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async redirects() { // Redirects
+    async redirects() { 
       return [
         {
           source: '/links',
@@ -19,7 +19,7 @@ const nextConfig = {
         },
         {
           source: '/email',
-          destination: 'mailto:sharukhi@sharukhi.xyz',
+          destination: 'mailto:hello@sharukhi.xyz',
           permanent: true,
         },
         {
