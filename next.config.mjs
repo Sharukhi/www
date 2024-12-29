@@ -39,12 +39,12 @@ const nextConfig = {
         },
         {
         source: '/wtr/:path*', 
-        destination: 'https://wtr.sharukhu.xyz/:path*', 
+        destination: 'https://wtr.sharukhi.xyz/:path*', 
         permanent: true, 
         },
         {
         source: '/wtr', 
-        destination: 'https://wtr.sharukhu.xyz', 
+        destination: 'https://wtr.sharukhi.xyz', 
         permanent: true, 
       },
       ]
