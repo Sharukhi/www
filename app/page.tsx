@@ -16,7 +16,7 @@ export default function Page() {
         {`I also like taking photos —I kinda suck at it but i enjoy it`}
       </p>
       <p className="mb-3">
-        Feel free to write me — <a href='mailto:hello@sharukhi.xyz' className='underline' target='_blank'>hello@sharukhi.xyz</a>
+        Feel free to write me — <a href='mailto:mail@sharukhi.xyz' className='underline' target='_blank'>mail@sharukhi.xyz</a>
       </p>
       <div className="my-8">
         <h2 className="font-semibold mb-4">Projects</h2>
